@@ -43,6 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Homework\DocumentProvider\IDocumentProvider.cs" />
+    <Compile Include="Homework\DocumentProvider\USBDevice.cs" />
+    <Compile Include="Homework\DocumentProvider\WiFiDevice.cs" />
+    <Compile Include="Homework\Printer.cs" />
+    <Compile Include="Homework\PrinterState\ChooseDeviceState.cs" />
+    <Compile Include="Homework\PrinterState\ChooseDocumentState.cs" />
+    <Compile Include="Homework\PrinterState\ErrorState.cs" />
+    <Compile Include="Homework\PrinterState\FiniteLaComediaState.cs" />
+    <Compile Include="Homework\PrinterState\GetChangeState.cs" />
+    <Compile Include="Homework\PrinterState\InitialState.cs" />
+    <Compile Include="Homework\PrinterState\InputMoneyState.cs" />
+    <Compile Include="Homework\PrinterState\IPrinterState.cs" />
+    <Compile Include="Homework\PrinterState\PrintingState.cs" />
     <Compile Include="Mediators\Ex1\Writers\RedConsoleWriter.cs" />
     <Compile Include="Mediators\Ex1\Writers\ConsoleWriter.cs" />
     <Compile Include="Mediators\Ex1\ExampleWithMediator.cs" />

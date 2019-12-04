@@ -1,4 +1,5 @@
 ﻿using System;
+using Example_07.Homework;
 using Example_07.Mediators;
 using Example_07.Observers;
 using Example_07.States;
@@ -11,12 +12,15 @@ namespace Example_07
         {
             //ObserverExample();
             //MediatorExample1();
-            MediatorExample2();
+            //MediatorExample2();
             //StateExample();
 
-            Console.WriteLine();
-            Console.WriteLine("Press enter...");
-            Console.ReadLine();
+            //Console.WriteLine();
+            //Console.WriteLine("Press enter...");
+            //Console.ReadLine();
+
+            var printer = new Printer();
+			printer.Do();
         }
 
         private static void ObserverExample()
